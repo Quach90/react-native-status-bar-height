@@ -17,7 +17,7 @@ $ yarn add react-native-status-bar-height
 ```js
 import { getStatusBarHeight } from 'react-native-status-bar-height';
 
-// 44 - on iPhoneX
+// 30 - on iPhoneX
 // 20 - on iOS device
 // X - on Android platfrom (runtime value)
 console.log(getStatusBarHeight());
