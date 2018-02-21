@@ -9,7 +9,7 @@ export function getStatusBarHeight(skipAndroid: boolean = false) {
     }
 
     if (skipAndroid) {
-        return 0;
+        return 20;
     }
 
     return StatusBar.currentHeight;
