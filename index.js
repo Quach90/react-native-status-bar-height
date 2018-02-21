@@ -9,6 +9,10 @@ export function getStatusBarHeight(skipAndroid: boolean = false) {
     }
 
     if (skipAndroid) {
+        return 20;
+    }
+
+    if (!skipAndroid) {
         return 0;
     }
 
